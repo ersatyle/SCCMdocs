@@ -117,7 +117,7 @@ Pre-cache content gives you the option to allow the client to only download the 
 ### User experience
 - When the client receives the deployment policy, it starts to pre-cache the content after the deployment's available time. This content includes all referenced packages, but only the OS upgrade package that matches the architecture and language attributes on the package.
 - When the client makes the deployment available to users, a notification displays to inform users about the new deployment. Now the task sequence is visible in Software Center. The user can go to Software Center and click **Install** to start the installation.
-- If the content is not fully pre-cached when the user installs the task sequence, then the client uses the settings that you specify on the **Deployment Option** tab of the deployment. 
+- If the content is not fully pre-cached when the user installs the task sequence, then the client uses the settings that you specify on the **Distribution Point** tab of the deployment. 
 
 
 
